@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/appbrain-sdk-android.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/applift-admob-mediation.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/GoogleAdMobAdsSdk-6.1.0.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/InMobiAdapter.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/InMobiAndroidSDK.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/MillennialAdapter.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/MMAdView.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/TapForTap.jar"/>
+	<classpathentry kind="lib" path="/Ads Lib/libs/TapForTapAdMob.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

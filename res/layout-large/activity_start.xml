@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appbrain="http://schemas.android.com/apk/lib/com.appbrain"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    xmlns:app="http://millennialmedia.com/android/schema" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    	 <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         ads:adUnitId="2f786ece38cd46be"
+                         ads:adSize="IAB_BANNER"
+                         ads:loadAdOnCreate="true"/>
+
+    	<!-- ads:testDevices="5554:Android2.1, samsung-gt_p3113-c0808790896622f"  -->
+
+               <Button 
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:text="@string/button1"
+        android:background="@drawable/blue_button_resized" />
+               
+                              <Button 
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:text="@string/button2"
+        android:background="@drawable/blue_button_resized" />
+                              
+                   
+                   <com.millennialmedia.android.MMAdView
+      android:id="@+id/mmadview" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      app:apid="95951"
+      app:adType="MMBannerAdRectangle"
+      app:refreshInterval="30"
+      app:height="250"
+      app:width="300"
+      app:accelerate="true"
+      app:ignoreDensityScaling="false" /> 
+
+</LinearLayout>
+
+<!--  
+                <com.tapfortap.AdView
+                android:id="@+id/ad_view"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom='true'
+                 />  
+     -->
+
+                    	 <com.google.ads.AdView
+                    	     android:id="@+id/ad_view"
+                    	     android:layout_width="wrap_content"
+                    	     android:layout_height="wrap_content"
+                    	     android:layout_alignParentBottom="true"
+                    	     android:layout_centerHorizontal="true"
+                    	     ads:adSize="IAB_BANNER"
+                    	     ads:adUnitId="2f786ece38cd46be"
+                    	     ads:loadAdOnCreate="true"
+                    	     android:gravity="center" >
+                    	 </com.google.ads.AdView>
+
+</RelativeLayout>
